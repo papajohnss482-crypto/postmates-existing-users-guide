@@ -1,0 +1,38 @@
+:root{
+  --paper:#faf7f1; --ink:#23201c; --muted:#6d655c; --accent:#8c2f1b;
+  --accent-soft:#f3e3dc; --line:#e3d9cd; --card:#ffffff; --good:#1e6b3a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:Georgia,'Times New Roman',serif;line-height:1.65;font-size:18px}
+.wrap{max-width:820px;margin:0 auto;padding:0 20px 64px}
+header.site{border-bottom:3px double var(--line);padding:26px 0 16px;margin-bottom:28px}
+.brand{font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);
+  font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+nav{margin-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:15px}
+nav a{color:var(--ink);text-decoration:none;margin-right:18px;border-bottom:1px solid var(--accent)}
+nav a:hover{color:var(--accent)}
+h1{font-size:38px;line-height:1.2;margin:8px 0 12px}
+h2{font-size:27px;margin:38px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+h3{font-size:21px;margin:24px 0 6px}
+p{margin:10px 0}
+.dateline{color:var(--muted);font-size:15px;font-family:Arial,Helvetica,sans-serif}
+.quick{background:var(--accent-soft);border-left:5px solid var(--accent);
+  padding:16px 20px;border-radius:4px;margin:22px 0}
+.quick p{margin:4px 0}
+table{width:100%;border-collapse:collapse;background:var(--card);margin:16px 0;
+  font-size:16px;font-family:Arial,Helvetica,sans-serif}
+th,td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+th{background:var(--paper)}
+.tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:20px;
+  background:#e7f2ea;color:var(--good);border:1px solid #bcd8c4;font-weight:bold}
+.tag.community{background:#fdf3e0;color:#8a6414;border-color:#ecd9a8}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;
+  padding:18px 22px;margin:16px 0}
+ul,ol{margin:10px 0 10px 22px;padding:0}
+li{margin:6px 0}
+.small{font-size:15px;color:var(--muted)}
+footer{border-top:3px double var(--line);margin-top:48px;padding-top:16px;
+  font-size:15px;color:var(--muted);font-family:Arial,Helvetica,sans-serif}
+a{color:var(--accent)}
+code{background:#f0e9df;padding:1px 6px;border-radius:3px;font-size:16px}
