@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://postmates-existing-users-guide.pages.dev/sitemap.xml
