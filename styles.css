@@ -34,5 +34,8 @@ li{margin:6px 0}
 .small{font-size:15px;color:var(--muted)}
 footer{border-top:3px double var(--line);margin-top:48px;padding-top:16px;
   font-size:15px;color:var(--muted);font-family:Arial,Helvetica,sans-serif}
+.footnav{margin-top:12px;font-size:14px}
+.footnav a{margin-right:14px;text-decoration:none}
+@media(max-width:640px){h1{font-size:30px}nav a{display:inline-block;margin-bottom:6px}}
 a{color:var(--accent)}
 code{background:#f0e9df;padding:1px 6px;border-radius:3px;font-size:16px}
